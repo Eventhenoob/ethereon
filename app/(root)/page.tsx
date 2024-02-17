@@ -30,7 +30,7 @@ const page = () => {
           }
         >
           <img
-            src="/home-bg.png"
+            src="/Untitled.jpg"
             alt="dragon bg"
             className="-z-10 block absolute top-0 object-cover left-0 w-full h-full "
           />
