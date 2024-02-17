@@ -42,7 +42,7 @@ const page = () => {
               }
             >
               <img
-                src="/front.png"
+                src="/front.jpg"
                 alt=""
                 className="absolute top-0 pt-44  w-2/4 lg:w-1/4"
               />
