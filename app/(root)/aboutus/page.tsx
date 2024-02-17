@@ -8,7 +8,7 @@ const page = () => {
       }
     >
       <img
-        src="/aboutUs.jpeg"
+        src="/Artboard 1-1.png"
         alt=""
         className="absolute hidden md:block top-0 left-0 -z-10 w-full h-full"
       />
