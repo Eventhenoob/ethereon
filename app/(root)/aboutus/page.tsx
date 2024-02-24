@@ -8,16 +8,11 @@ const page = () => {
       }
     >
       <img
-        src="/aboutUs.jpeg"
+        src="/Artboard 1-1.png"
         alt=""
         className="absolute hidden md:block top-0 left-0 -z-10 w-full h-full"
       />
-      <img
-        src="/scrollPhone.png"
-        alt=""
-        className="absolute block md:hidden top-0 left-0 z-10 w-full h-full"
-      />
-      <div className="relative z-50 w-[65%] h-[50%] md:w-[37%] mt-1 font-got text-2xl font-bold text-white md:h-[80%] overflow-y-scroll  md:absolute top-0 md:mt-48  left-4">
+      <div className="relative z-50 w-[65%] h-[50%] mt-1 font-got text-2xl font-bold text-white   md:absolute top-0 md:mt-48">
         Welcome to Catalyst, hosted at Lovely Professional University, the
         dynamic fusion of technology and innovation. Catalyst is not just a
         celebration but a competition that ignites student technological

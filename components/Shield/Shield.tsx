@@ -52,7 +52,7 @@ const Shield = ({ onClick, img, title, price, id, isFree }: Props) => {
           </div>
         </div>
         <div className="h-20 w-72">
-          <img src="/tags/ai-tag.png" alt="" className="w-full" />
+          <img src={`/tags/${id}.png`} alt="" className="w-full" />
         </div>
       </div>
     </>

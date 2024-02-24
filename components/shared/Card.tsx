@@ -59,9 +59,6 @@ const Card = ({ event, hasOrderLink, hidePrice }: CardProps) => {
         </Link>
 
         <div className="flex-between w-full">
-          <p className="p-medium-14 md:p-medium-16 text-grey-600">
-            {event.organizer.firstName} {event.organizer.lastName}
-          </p>
 
           {hasOrderLink && (
             <Link href={`/orders?eventId=${event._id}`} className="flex gap-2">
@@ -70,7 +67,7 @@ const Card = ({ event, hasOrderLink, hidePrice }: CardProps) => {
             </Link>
           )}
 
-           <a href="" className="px-6 py-2 bg-blue-400 hover:bg-blue-600 transition-all duration-200 text-white  rounded-3xl ">Team</a>
+           <a href="https://forms.gle/EGfKcREUE7icGr779" className="px-6 py-2 bg-blue-400 hover:bg-blue-600 transition-all duration-200 text-white  rounded-3xl ">Team</a>
         </div>
       </div>
     </div>
